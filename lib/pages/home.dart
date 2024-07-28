@@ -35,7 +35,6 @@ class _HomePageState extends State<HomePage> {
   }
 
   void initData() async {
-    setState(() {});
     try {
       var result = await rootBundle.loadString('assets/data.json');
       var response = jsonDecode(result);
@@ -48,6 +47,7 @@ class _HomePageState extends State<HomePage> {
     } catch (e) {
       print(e);
     }
+    setState(() {});
   }
 
   @override
@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
         color: Color.fromARGB(255, 214, 211, 211),
         child: Column(
           children: [
-            SizedBox(height: 20),
+            SizedBox(height: 10),
             Container(
               child: ValueListenableBuilder(
                 valueListenable: currentImageNotifier,
