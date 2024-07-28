@@ -1,0 +1,33 @@
+{
+    "data" : [
+    {
+        "id" : 1,
+        "name": "Tommy Hilfiger",
+        "image": "th.webp",
+        "price":  44000
+        
+    },
+
+    {
+        "id" : 2,
+        "name": "Guess",
+        "image": "gu.webp",
+        "price":  21000        
+    },
+    {
+        "id" : 1,
+        "name": "Maserati",
+        "image": "ma.webp",
+        "price":  45000
+        
+    },
+    {
+        "id" : 1,
+        "name": "Calvin Klein",
+        "image": "ck.webp",
+        "price":  3400
+        
+    }
+] ,
+"success": true
+}
